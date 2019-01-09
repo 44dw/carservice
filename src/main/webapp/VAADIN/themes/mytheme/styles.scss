@@ -1,0 +1,45 @@
+@import "../valo/valo";
+
+.mytheme {
+	@include valo;
+}
+
+.v-button {
+	margin-right: 10px;
+}
+
+.order-filter-title {
+	font-weight: bold;
+}
+
+.order-filter {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	.v-filterselect, .v-textfield { 
+		margin-right: 10px;
+	}
+	
+	.v-label {
+		margin-top: 8px;
+		margin-right: 10px;
+	}
+}
+
+.v-formlayout {
+	padding-left: 10px;
+	
+	.window-content-box {
+		background: 0000FF;
+		width: 500px;
+	}
+}
+
+.warning-layout {
+	padding: 10px;
+	
+	.v-horizontallayout {
+		padding-top: 40px;
+	}
+}
