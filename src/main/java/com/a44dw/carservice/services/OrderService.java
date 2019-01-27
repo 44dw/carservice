@@ -28,10 +28,6 @@ public class OrderService extends MyService {
         this.responser = responser;
     }
 
-    public Order getById(Long aLong) {
-        return null;
-    }
-
     public LinkedList<Order> getOrders(String what, int where) {
         LinkedList<Order> obtainedOrders = (LinkedList) helper.getOrderDao().getAll();
 
